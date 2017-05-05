@@ -3,7 +3,7 @@
 # External dependencies
 # 
 
-find_package(GLM REQUIRED)
+find_package(glm REQUIRED)
 find_package(glbinding REQUIRED)
 
 # 
@@ -339,7 +339,6 @@ target_include_directories(${target}
 
     PUBLIC
     ${DEFAULT_INCLUDE_DIRECTORIES}
-    ${GLM_INCLUDE_DIR}
 
     INTERFACE
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -357,6 +356,7 @@ target_link_libraries(${target}
 
     PUBLIC
     ${DEFAULT_LIBRARIES}
+    glm
     glbinding::glbinding
 
     INTERFACE
