@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['readint',['readInt',['../namespaceglobjects.html#a955f1a1d09afb8b8dfb68330fa4a254a',1,'globjects']]],
+  ['readpixels',['readPixels',['../classglobjects_1_1_framebuffer.html#a9f7b28e909aaa82da2dfaf184955896c',1,'globjects::Framebuffer::readPixels(gl::GLint x, gl::GLint y, gl::GLsizei width, gl::GLsizei height, gl::GLenum format, gl::GLenum type, gl::GLvoid *data=nullptr) const '],['../classglobjects_1_1_framebuffer.html#a85976fa10e024ad83ad9d540d9e3dc24',1,'globjects::Framebuffer::readPixels(const std::array&lt; gl::GLint, 4 &gt; &amp;rect, gl::GLenum format, gl::GLenum type, gl::GLvoid *data=nullptr) const '],['../classglobjects_1_1_framebuffer.html#a8dcc4543937d15d8248df3a7776d5752',1,'globjects::Framebuffer::readPixels(gl::GLenum readBuffer, const std::array&lt; gl::GLint, 4 &gt; &amp;rect, gl::GLenum format, gl::GLenum type, gl::GLvoid *data=nullptr) const ']]],
+  ['readpixelstobuffer',['readPixelsToBuffer',['../classglobjects_1_1_framebuffer.html#a7f517ef23a14ab94ae79f9cfd547af24',1,'globjects::Framebuffer']]],
+  ['readpixelstobytearray',['readPixelsToByteArray',['../classglobjects_1_1_framebuffer.html#a6ef51a85064fe4073774bf8244ddf487',1,'globjects::Framebuffer::readPixelsToByteArray(const std::array&lt; gl::GLint, 4 &gt; &amp;rect, gl::GLenum format, gl::GLenum type) const '],['../classglobjects_1_1_framebuffer.html#adc0fffe6635ffbca79be8fa4b7dfa22e',1,'globjects::Framebuffer::readPixelsToByteArray(gl::GLenum readBuffer, const std::array&lt; gl::GLint, 4 &gt; &amp;rect, gl::GLenum format, gl::GLenum type) const ']]],
+  ['registercurrentcontext',['registerCurrentContext',['../namespaceglobjects.html#a1a4ea67813fbdfcd7794e7b0eafad175',1,'globjects::registerCurrentContext()'],['../namespaceglobjects.html#a55b22ec797f225ca128cad98ac564d2c',1,'globjects::registerCurrentContext(glbinding::ContextHandle sharedContextId)']]],
+  ['registerfile',['registerFile',['../classglobjects_1_1_file_registry.html#ad77cf48d62339a66db4f5350364f91bb',1,'globjects::FileRegistry']]],
+  ['registerlistener',['registerListener',['../classglobjects_1_1_changeable.html#ab180e785571425b6bec8682807f3bc30',1,'globjects::Changeable']]],
+  ['registernamedstring',['registerNamedString',['../classglobjects_1_1_named_string.html#a940f3eadef45f5953a37c07e754454e9',1,'globjects::NamedString']]],
+  ['release',['release',['../classglobjects_1_1_program.html#a2670b9ea4187bf0b4dcacca27bb01bb6',1,'globjects::Program::release()'],['../classglobjects_1_1_program_pipeline.html#aa15f7f0cdac3b21df0dcbd32b2adc8f7',1,'globjects::ProgramPipeline::release()']]],
+  ['releaseprogram',['releaseProgram',['../classglobjects_1_1_program_pipeline.html#ab9fa50f8ef510053adba48df1465c7bd',1,'globjects::ProgramPipeline']]],
+  ['releasestages',['releaseStages',['../classglobjects_1_1_program_pipeline.html#a7e953d807ff7151809b56e98ad446028',1,'globjects::ProgramPipeline']]],
+  ['reload',['reload',['../classglobjects_1_1_file.html#a5e7fbb332eb30b7dbda12199948deef2',1,'globjects::File']]],
+  ['reloadall',['reloadAll',['../classglobjects_1_1_file_registry.html#a4cf750030d869002699cc702722a1e48',1,'globjects::FileRegistry']]],
+  ['removesubject',['removeSubject',['../classglobjects_1_1_change_listener.html#a9bc533d05c87201fee132513b43fd0e9',1,'globjects::ChangeListener']]],
+  ['renderbuffer',['renderBuffer',['../classglobjects_1_1_attached_renderbuffer.html#a6a4764f67d62b61ffce19b15f18801fb',1,'globjects::AttachedRenderbuffer::renderBuffer()'],['../classglobjects_1_1_attached_renderbuffer.html#aca3e7e4d69e44c3e2338ba7e04088f31',1,'globjects::AttachedRenderbuffer::renderBuffer() const '],['../classglobjects_1_1_renderbuffer.html#a065713e494ecf2e22bb8f345c7dede33',1,'globjects::Renderbuffer::Renderbuffer()']]],
+  ['renderbuffer',['Renderbuffer',['../classglobjects_1_1_renderbuffer.html',1,'globjects']]],
+  ['renderbuffer_2eh',['Renderbuffer.h',['../_renderbuffer_8h.html',1,'']]],
+  ['renderbufferobjectresource',['RenderBufferObjectResource',['../classglobjects_1_1_render_buffer_object_resource.html#a3d8ba83149e66ef48bca3526710d904e',1,'globjects::RenderBufferObjectResource']]],
+  ['renderbufferobjectresource',['RenderBufferObjectResource',['../classglobjects_1_1_render_buffer_object_resource.html',1,'globjects']]],
+  ['renderer',['renderer',['../namespaceglobjects.html#a6095db02160eff304c87980e6b39eb53',1,'globjects']]],
+  ['replace',['replace',['../classglobjects_1_1_string_template.html#aa12497ef864bedff399b9eb22f32ea48',1,'globjects::StringTemplate::replace(const std::string &amp;original, const std::string &amp;str)'],['../classglobjects_1_1_string_template.html#a1338d4a51d7311f6a010f774becd3bb9',1,'globjects::StringTemplate::replace(const std::string &amp;original, int i)']]],
+  ['resource_2eh',['Resource.h',['../_resource_8h.html',1,'']]],
+  ['resultavailable',['resultAvailable',['../classglobjects_1_1_query.html#a8358ca9cd41aa8b5bb4bf0802e68f113',1,'globjects::Query']]],
+  ['resume',['resume',['../classglobjects_1_1_transform_feedback.html#a46d4ec9aad59aa4d465cbeaedcba9cfa',1,'globjects::TransformFeedback']]]
+];

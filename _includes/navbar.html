@@ -1,0 +1,30 @@
+<div class="container">
+  <nav class="navbar navbar-light navbar-fixed-top navbar-toggleable-sm">
+  
+    <!-- Toggle button for small screens -->
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <!-- Logo -->
+    <a class="nav-item nav-link nav-brand" href="{% if page.link_to_home %}{{ site.baseurl }}/{% else %}#page-top{% endif %}">
+      <span class="hidden-sm-down">{% assign svg_alt = site.title %}{% assign svg_src = 'globjects' %}{% include svg.html %}</span>
+      <span class="hidden-md-up">{% assign svg_alt = site.title %}{% assign svg_src = 'globjects' %}{% include svg.html %}</span>
+    </a>
+    
+    <!-- Mormal menu -->
+    <div class="collapse navbar-collapse text-right justify-content-md-end" id="navbarNavDropdown">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="https://github.com/cginternals/globjects">
+          View on Github
+          <span class="icon-github"></span>
+        </a>
+        <a class="nav-item nav-link ml-auto" href="{{ site.baseurl }}/docs">Documentations</a>
+        {% for s in site.documentations %}
+          <a class="nav-item nav-link" href="{{ site.baseurl }}/docs/{{ s.name }}">{{ s.name }}</a>
+        {% endfor %}
+      </div>
+    </div>
+    
+  </nav>
+</div>

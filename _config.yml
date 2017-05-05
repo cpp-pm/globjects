@@ -1,0 +1,38 @@
+
+title: 'globjects'
+author: 'CG Internals, Potsdam, Germany'
+
+google_font_sans_serif: 'Source+Sans+Pro:600,300'
+google_font_monospace: 'Source+Code+Pro:400'
+
+# Handling Reading
+safe: true
+encoding: utf-8
+
+documentations:
+  - 
+    name: master
+    status: unstable
+    date: 05.05.2017
+  - 
+    name: v1.1
+    status: stable
+    date: 0
+  - 
+    name: v1.0
+    status: stable
+    date: 0
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  hard_wrap: false
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+include: [ "*.html" ]
+
+sass:
+  style: compressed

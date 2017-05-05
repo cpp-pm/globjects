@@ -1,0 +1,15 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body onload="initPage(true)" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+{% include navbar.html %}
+<section id="content" class="container">
+{{ content }}
+</section>
+{% include scripts-3rdp.html %}
+{% include scripts.html %}
+</body>
+</html>

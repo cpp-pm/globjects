@@ -1,0 +1,232 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+@charset "utf-8";
+
+// Import customized bootstrap from `sass_dir` (defaults to `_sass`)
+@import
+  "bootstrap-custom",
+  "jekyll_pygments_github",
+  "fontello-custom/fontello";
+
+p {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+h1 {
+  padding-top: 2rem;
+}
+
+body {
+  overflow-y: scroll; // always show scrollbar
+}
+
+footer {
+  margin-bottom: 1rem;
+}
+
+.navbar {
+
+  padding: 0;
+  background-color: $body-bg;
+  //opacity: 0.92;
+
+  #lang-select {
+
+    margin-left: 1rem;
+
+    > li.nav-item + .nav-item {
+      margin-left: 0.25rem;
+    }
+  }
+
+  img {
+    height: 1.35rem;
+    width: auto;
+  }
+
+  .dropdown-menu {
+    border: none;
+    margin-right: .9375rem;
+  }
+
+  .dropdown-item {
+    color: $navbar-light-color; 
+
+    @include hover-focus {
+      color: $navbar-light-hover-color; 
+      background: none;
+    }  
+  }
+  .dropdown-item.active {
+    color: $navbar-light-active-color; 
+    background: none;
+  }
+}
+
+
+
+
+
+
+
+.text-justify {
+  text-align: justify;
+}
+
+.row {
+  margin-top: 2rem;
+}
+
+@media (min-width: 75em) {
+.container {
+    max-width: 60rem;
+}}
+
+section {
+  padding: 4rem 0;
+}
+
+// heading
+
+.demo-gl {
+  z-index: -1;
+}
+
+// navbar
+
+/*.navbar-brand {
+  font-size: 1rem;
+  margin-right: 0rem;
+  margin-top: 0.125rem
+}
+
+.navbar-brand > .img-responsive {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+// ie > 8 (http://keithclark.co.uk/articles/moving-ie-specific-css-into-media-blocks/media-tests/)
+@media screen and (min-width:0\0) {
+  .navbar-brand {
+    margin-right: -100%;
+  }
+  .navbar-brand > .img-responsive {
+    width: 50%;
+  }
+}
+// ie < 9 (http://keithclark.co.uk/articles/moving-ie-specific-css-into-media-blocks/media-tests/)
+@media \0screen\,screen\9 {
+ .navbar-brand {
+    margin-right: -100%;
+  }
+  .navbar-brand > .img-responsive {
+    width: 50%;
+  } 
+}
+
+noscript + .nav-item,
+noscript > .nav-item  {
+  margin-left: 1rem;
+}
+
+$navbar-bg-color: rgba($brand-color-0, 0.08);
+
+.navbar {
+
+  background-color: $body-bg;
+  // border-bottom: 1px solid $navbar-bg-color;
+  opacity: 0.92;
+
+  #lang-select {
+
+    margin-left: 1rem;
+
+    > li.nav-item + .nav-item {
+      margin-left: 0.25rem;
+    }
+  }
+
+  transition: padding 0.5s ease-in-out;
+  @include media-breakpoint-down(sm) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+ 
+
+  .dropdown-menu {
+
+    clear: right;
+    z-index: 1;
+
+    margin: 0px 0 0;
+    left: -20px;
+
+    border: 1px solid $navbar-bg-color;
+
+    i {
+      float: right;
+      display: inline-block;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+
+    /*strong {
+      font-weight: normal;
+    }*/
+  /*}
+
+  .dropdown-divider {
+    background-color: $navbar-bg-color;
+  }
+
+  .lang-select ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      display: block;
+      float: left;
+
+      +li {
+        margin-left: 0.5rem;
+      }
+    }
+  }
+
+}
+*/
+
+section#content {
+
+  img {
+    max-width: 100%; }
+}
+
+
+/* https://gist.github.com/larrybotha/7881691
+ * 
+ * Let's target IE to respect aspect ratios and sizes for img tags containing SVG files
+ *
+ * [1] IE9
+ * [2] IE10+
+ */
+/* 1 */
+.ie9 img[src$=".svg"] {
+  width: 100%; 
+}
+
+/* 2 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  img[src$=".svg"] {
+    width: 100%; 
+  }
+
+  #team figure {
+    max-width: 100%;
+  }
+}

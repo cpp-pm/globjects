@@ -1,0 +1,16 @@
+var searchData=
+[
+  ['make_5fref',['make_ref',['../namespaceglobjects.html#a91562ffefb1dca7b0763aa610e76272c',1,'globjects']]],
+  ['makenonresident',['makeNonResident',['../classglobjects_1_1_texture_handle.html#a256376ecbce33ee335aab73690c5e721',1,'globjects::TextureHandle']]],
+  ['makeresident',['makeResident',['../classglobjects_1_1_texture_handle.html#a8a513592f7f313bc84a80f22c95dad9e',1,'globjects::TextureHandle']]],
+  ['map',['map',['../classglobjects_1_1_buffer.html#abfea62a549f31e738d78b6f17e6b4da8',1,'globjects::Buffer::map() const '],['../classglobjects_1_1_buffer.html#a53dfa313e8e2cd7449d65f27526d3d6c',1,'globjects::Buffer::map(gl::GLenum access)']]],
+  ['maprange',['mapRange',['../classglobjects_1_1_buffer.html#a8848ccd522665ee10fca6ebb4333e7e8',1,'globjects::Buffer']]],
+  ['message',['message',['../classglobjects_1_1_log_message.html#ad1ecd856c15cc906e0f35999dda7c662',1,'globjects::LogMessage::message()'],['../classglobjects_1_1_debug_message.html#a846b490b749bf82a8f4295588165a04b',1,'globjects::DebugMessage::message()']]],
+  ['mode',['mode',['../classglobjects_1_1_state.html#af058dcb8f705085d226bd6dd5bea92d5',1,'globjects::State']]],
+  ['modifiedsource',['modifiedSource',['../classglobjects_1_1_string_template.html#a693562f470b051035a3ac2dc5448fc58',1,'globjects::StringTemplate']]],
+  ['multidrawarrays',['multiDrawArrays',['../classglobjects_1_1_vertex_array.html#aa3751a9bf0e03e439f9602f86fd5e1c5',1,'globjects::VertexArray::multiDrawArrays(gl::GLenum mode, gl::GLint *first, const gl::GLsizei *count, gl::GLsizei drawCount) const '],['../classglobjects_1_1_vertex_array.html#a485ad63630c620d4af3fb0a0fe3830d4',1,'globjects::VertexArray::multiDrawArrays(gl::GLenum mode, const std::vector&lt; MultiDrawArraysRange &gt; &amp;ranges) const ']]],
+  ['multidrawarraysindirect',['multiDrawArraysIndirect',['../classglobjects_1_1_vertex_array.html#a46fcae4da10a0ddfdf89479f4de1dca4',1,'globjects::VertexArray']]],
+  ['multidrawelements',['multiDrawElements',['../classglobjects_1_1_vertex_array.html#a2f48e29f695830de223b0c8db8f601b9',1,'globjects::VertexArray::multiDrawElements(gl::GLenum mode, const gl::GLsizei *count, gl::GLenum type, const void **indices, gl::GLsizei drawCount) const '],['../classglobjects_1_1_vertex_array.html#a414ac0472d967be0760727c141c83cfd',1,'globjects::VertexArray::multiDrawElements(gl::GLenum mode, gl::GLenum type, const std::vector&lt; MultiDrawElementsRange &gt; &amp;ranges) const ']]],
+  ['multidrawelementsbasevertex',['multiDrawElementsBaseVertex',['../classglobjects_1_1_vertex_array.html#ab392b5f29505f332cabf30a5eac20322',1,'globjects::VertexArray::multiDrawElementsBaseVertex(gl::GLenum mode, const gl::GLsizei *count, gl::GLenum type, const void **indices, gl::GLsizei drawCount, gl::GLint *baseVertex) const '],['../classglobjects_1_1_vertex_array.html#a82a8923d8a3e1bc1fbdf9be1844ccc5a',1,'globjects::VertexArray::multiDrawElementsBaseVertex(gl::GLenum mode, gl::GLenum type, const std::vector&lt; MultiDrawElementsBaseVertexRange &gt; &amp;ranges) const ']]],
+  ['multidrawelementsindirect',['multiDrawElementsIndirect',['../classglobjects_1_1_vertex_array.html#a0b78bdc477186253ffd28ef844742241',1,'globjects::VertexArray']]]
+];
