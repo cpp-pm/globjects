@@ -87,6 +87,13 @@ option(OPTION_ERRORS_AS_EXCEPTION "Throw exceptions instead of printing OpenGL r
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 set(IDE_FOLDER "")
 
+# include Hunter
+include("cmake/HunterGate.cmake")
+HunterGate(
+    URL "https://github.com/ruslo/hunter/archive/v0.19.118.tar.gz"
+    SHA1 "70143afff6681edc7c8be8a9d6c558e7d83d6f61"
+)
+
 # Declare project
 project(${META_PROJECT_NAME} C CXX)
 
@@ -94,6 +101,10 @@ project(${META_PROJECT_NAME} C CXX)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR})
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR})
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR})
+
+# define dependencies Hunter should satisfy if enabled
+hunter_add_package(glbinding)
+hunter_add_package(glm)
 
 # Create version file
 file(WRITE "${PROJECT_BINARY_DIR}/VERSION" "${META_NAME_VERSION}")
