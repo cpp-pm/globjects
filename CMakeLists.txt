@@ -141,9 +141,12 @@ set(SYSTEM_DIR_INSTALL FALSE)
 if("${CMAKE_INSTALL_PREFIX}" STREQUAL "/usr" OR "${CMAKE_INSTALL_PREFIX}" STREQUAL "/usr/local")
     set(SYSTEM_DIR_INSTALL TRUE)
 endif()
+# hunter: always assume system-dir-install
+set(SYSTEM_DIR_INSTALL TRUE)
 
 # Installation paths
-if(UNIX AND SYSTEM_DIR_INSTALL)
+#if(UNIX AND SYSTEM_DIR_INSTALL)
+if(TRUE) # hunter: always package linux style
     # Install into the system (/usr/bin or /usr/local/bin)
     set(INSTALL_ROOT      "share/${project}")       # /usr/[local]/share/<project>
     set(INSTALL_CMAKE     "share/${project}/cmake") # /usr/[local]/share/<project>/cmake
